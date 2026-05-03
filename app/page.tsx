@@ -7,12 +7,14 @@ import { Testimonials } from "@/components/testimonials"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
+import  Announcement from "@/components/announcement";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar />
       <Hero />
+      <Announcement />
       <Courses />
       <FeeStructure />
       <WhyChooseUs />
