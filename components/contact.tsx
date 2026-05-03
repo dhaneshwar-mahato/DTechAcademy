@@ -39,7 +39,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Address",
-    value: "Near +2 High School Bansa, Chowka-Kandra Road, Jharkhand",
+    value: "Ramnagar, Raghunathpur Block Road, Seraikela Kharsawan, Jharkhand, 832401",
     href: null,
   },
 ]

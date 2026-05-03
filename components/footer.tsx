@@ -157,9 +157,9 @@ export function Footer() {
                 </a>
               </li>
               <li className="leading-relaxed">
-                Near +2 High School Bansa,
+                Ramnagar, Raghunathpur Block Road,
                 <br />
-                Chowka-Kandra Road, Jharkhand
+                Seraikela Kharsawan, Jharkhand, 832401
               </li>
             </ul>
           </motion.div>

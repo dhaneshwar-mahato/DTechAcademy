@@ -105,11 +105,11 @@ export function FeeStructure() {
           >
             <div className="bg-card rounded-2xl border border-border overflow-hidden shadow-lg">
               {/* Table Header */}
-              <div className="grid grid-cols-4 gap-4 p-4 bg-navy text-white font-semibold text-sm lg:text-base">
+              <div className="grid grid-cols-2 gap-2 p-2 bg-navy text-white font-semibold text-sm lg:text-base">
                 <div className="col-span-1">Course</div>
                 <div className="text-center">Duration</div>
-                <div className="text-center">Total Fee</div>
-                <div className="text-center hidden sm:block">Monthly</div>
+                {/* <div className="text-center">Total Fee</div> */}
+                {/* <div className="text-center hidden sm:block">Monthly</div> */}
               </div>
 
               {/* Table Body */}
@@ -121,13 +121,13 @@ export function FeeStructure() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.05, duration: 0.4 }}
-                    className={`grid grid-cols-4 gap-4 p-4 items-center hover:bg-secondary/50 transition-colors ${
+                    className={`grid grid-cols-2 gap-2 p-2 items-center hover:bg-secondary/50 transition-colors ${
                       item.highlight ? "bg-gold/5" : ""
                     }`}
                   >
                     <div className="col-span-1 flex items-center gap-2">
                       {item.highlight && (
-                        <Star className="w-4 h-4 text-gold fill-gold flex-shrink-0" />
+                        <Star className="w-2 h-2 text-gold fill-gold flex-shrink-0" />
                       )}
                       <span
                         className={`font-semibold text-sm lg:text-base ${
@@ -140,18 +140,18 @@ export function FeeStructure() {
                     <div className="text-center text-muted-foreground text-sm lg:text-base">
                       {item.duration}
                     </div>
-                    <div className="text-center">
+                    {/* <div className="text-center">
                       <span className="inline-flex items-center font-bold text-navy text-sm lg:text-lg">
                         <IndianRupee className="w-3 h-3 lg:w-4 lg:h-4" />
                         {item.fee}
                       </span>
-                    </div>
-                    <div className="text-center hidden sm:block">
+                    </div> */}
+                    {/* <div className="text-center hidden sm:block">
                       <span className="inline-flex items-center text-muted-foreground text-sm">
                         <IndianRupee className="w-3 h-3" />
                         {item.monthly}/mo
                       </span>
-                    </div>
+                    </div> */}
                   </motion.div>
                 ))}
               </div>

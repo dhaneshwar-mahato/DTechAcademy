@@ -12,17 +12,15 @@ const courses = [
     name: "ADCA",
     fullName: "Advanced Diploma in Computer Applications",
     duration: "12 Months",
-    fee: "3,499",
     icon: Laptop,
     color: "bg-blue-500",
     popular: true,
-    skills: ["MS Office", "Tally", "Internet", "Basic Programming"],
+    skills: ["MS Office", "Tally", "Basic Programming"],
   },
   {
     name: "DCA",
     fullName: "Diploma in Computer Applications",
     duration: "6 Months",
-    fee: "1,999",
     icon: FileCode,
     color: "bg-green-500",
     popular: false,
@@ -32,7 +30,6 @@ const courses = [
     name: "Python",
     fullName: "Python Programming Course",
     duration: "4 Months",
-    fee: "2,199",
     icon: Terminal,
     color: "bg-yellow-500",
     popular: true,
@@ -42,7 +39,6 @@ const courses = [
     name: "Fullstack",
     fullName: "Full Stack Web Development",
     duration: "3 Months",
-    fee: "1,999",
     icon: Layers,
     color: "bg-purple-500",
     popular: true,
@@ -52,7 +48,6 @@ const courses = [
     name: "Web Dev",
     fullName: "Web Development Fundamentals",
     duration: "2 Months",
-    fee: "1,199",
     icon: Globe,
     color: "bg-cyan-500",
     popular: false,
@@ -62,31 +57,28 @@ const courses = [
     name: "Graphic Design",
     fullName: "Graphic Design Fundamentals",
     duration: "3 Months",
-    fee: "1,499",
     icon: Database,
     color: "bg-orange-500",
     popular: false,
-    skills: ["SQL", "MySQL", "Data Modeling", "Queries"],
+    skills: ["Photoshop", "Canva", "AI image processing"],
   },
   {
     name: "Programming",
     fullName: "C & C++ Programming",
     duration: "3 Months",
-    fee: "1,499",
     icon: Code2,
     color: "bg-red-500",
     popular: false,
-    skills: ["C Language", "C++", "OOP Concepts", "DSA Basics"],
+    skills: ["C", "C++", "OOP Concepts", "DSA Basics"],
   },
   {
     name: "Data Analyst",
     fullName: "Data Analytics with Python",
     duration: "3 Months",
-    fee: "1,499",
     icon: Smartphone,
     color: "bg-pink-500",
     popular: false,
-    skills: ["React Native", "Flutter Basics", "Mobile UI", "API Integration"],
+    skills: ["SQL", "Python", "Power BI", "Excel"],
   },
 ]
 
@@ -182,10 +174,10 @@ export function Courses() {
                       <Clock className="w-4 h-4" />
                       <span>{course.duration}</span>
                     </div>
-                    <div className="flex items-center gap-0.5 font-semibold text-navy">
-                      <IndianRupee className="w-4 h-4" />
-                      <span>{course.fee}</span>
-                    </div>
+                    {/* <div className="flex items-center gap-0.5 font-semibold text-navy">
+                      <IndianRupee className="w-4 h-4" /> */}
+                      {/* <span>{course.fee}</span> */}
+                    {/* </div> */}
                   </div>
                 </CardContent>
                 <CardFooter>
