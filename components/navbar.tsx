@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image"
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
@@ -45,7 +45,13 @@ export function Navbar() {
               className="flex items-center gap-2"
             >
               <div className="relative w-10 h-10 rounded-lg bg-navy flex items-center justify-center">
-                <span className="text-gold font-bold text-xl font-display">D</span>
+                <Image
+                src="/icon.png"
+                alt="DTech Academy Logo"
+                width={28}
+                height={28}
+                className="object-contain"
+              />
               </div>
               <div className="flex flex-col">
                 <span className="font-display font-bold text-lg text-navy leading-tight">

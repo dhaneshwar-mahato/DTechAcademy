@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image"
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { Facebook, Instagram, Twitter, Youtube, Linkedin, ArrowUp } from "lucide-react"
@@ -19,11 +19,11 @@ const courses = [
 ]
 
 const socialLinks = [
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Youtube, href: "#", label: "YouTube" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61563834086752", label: "Facebook" },
+  { icon: Instagram, href: "https://www.instagram.com/dtechacademy_/", label: "Instagram" },
+  { icon: Twitter, href: "https://x.com/Dhaneshwar222", label: "Twitter" },
+  { icon: Youtube, href: "http://www.youtube.com/@idhaneshwarmahato", label: "YouTube" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/dhaneshwar-mahato-6785a7256/", label: "LinkedIn" },
 ]
 
 export function Footer() {
@@ -44,9 +44,15 @@ export function Footer() {
             transition={{ duration: 0.5 }}
           >
             <Link href="#home" className="flex items-center gap-2 mb-6">
-              <div className="relative w-10 h-10 rounded-lg bg-gold flex items-center justify-center">
-                <span className="text-navy font-bold text-xl font-display">D</span>
-              </div>
+              <div className="relative w-10 h-10 rounded-lg bg-navy flex items-center justify-center">
+                              <Image
+                              src="/icon.png"
+                              alt="DTech Academy Logo"
+                              width={28}
+                              height={28}
+                              className="object-contain"
+                            />
+                            </div>
               <div className="flex flex-col">
                 <span className="font-display font-bold text-lg text-white leading-tight">
                   DTech
