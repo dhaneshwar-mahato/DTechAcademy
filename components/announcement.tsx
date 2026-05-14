@@ -155,7 +155,7 @@ export default function Announcement() {
             <p>
               📅 Starts from{" "}
               <span className="font-bold text-yellow-300 text-xl">
-                16th May
+                25th May
               </span>
             </p>
 
