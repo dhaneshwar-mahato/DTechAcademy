@@ -87,16 +87,55 @@ const courses = [
     popular: false,
     skills: ["SQL", "Python", "Power BI", "Excel"],
   },
+
   {
-  name: "AutoCAD",
-  fullName: "AutoCAD Design & Drafting",
+  name: "AutoCAD Civil",
+  fullName: "AutoCAD Civil Engineering Drafting",
+  duration: "2 Months",
+  fee: "1,499",
+  icon: Layers,
+  color: "bg-green-600",
+  popular: true,
+  skills: [
+    "Building Plans",
+    "Structural Drafting",
+    "Site Layout",
+    "Civil Projects",
+  ],
+},
+
+  {
+  name: "AutoCAD Electrical",
+  fullName: "AutoCAD Electrical Design & Drafting",
   duration: "2 Months",
   fee: "1,499",
   icon: Laptop,
-  color: "bg-slate-500",
+  color: "bg-yellow-600",
   popular: true,
-  skills: ["2D Design", "3D Modeling", "Engineering Drawing", "Projects"],
+  skills: [
+    "Electrical Circuits",
+    "Panel Design",
+    "2D Drafting",
+    "Industrial Projects",
+  ],
 },
+
+{
+  name: "AutoCAD Mechanical",
+  fullName: "AutoCAD Mechanical Design",
+  duration: "2 Months",
+  fee: "1,499",
+  icon: Code2,
+  color: "bg-blue-600",
+  popular: true,
+  skills: [
+    "Machine Drawing",
+    "Mechanical Components",
+    "3D Modeling",
+    "Industrial Design",
+  ],
+},
+
 {
   name: "DSA",
   fullName: "Data Structures & Algorithms with Python",

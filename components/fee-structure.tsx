@@ -62,13 +62,30 @@ const feeData = [
     highlight: false,
   },
 
-{
-  course: "AutoCAD",
+  {
+  course: "AutoCAD Civil",
   duration: "2 Months",
   fee: "1,499",
   monthly: "750",
   highlight: true,
 },
+
+{
+  course: "AutoCAD Electrical",
+  duration: "2 Months",
+  fee: "1,499",
+  monthly: "750",
+  highlight: true,
+},
+
+{
+  course: "AutoCAD Mechanical",
+  duration: "2 Months",
+  fee: "1,499",
+  monthly: "750",
+  highlight: true,
+},
+
 {
   course: "DSA with Python",
   duration: "2 Months",
