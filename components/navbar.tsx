@@ -11,6 +11,7 @@ const navLinks = [
   { name: "Courses", href: "#courses" },
   { name: "About", href: "#about" },
   { name: "Contact", href: "#contact" },
+  { name: "Founder", href: "#founder" },
 ]
 
 export function Navbar() {

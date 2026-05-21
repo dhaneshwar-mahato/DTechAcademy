@@ -7,17 +7,22 @@ import { Testimonials } from "@/components/testimonials"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
-import  Announcement from "@/components/announcement";
+import { EnrollmentProcess } from "@/components/enrollment-process"
+import { Founder } from "@/components/founder"
+// import  Announcement from "@/components/announcement"
+// ;
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar />
       <Hero />
-      <Announcement />
+      {/* <Announcement /> */}
+      <EnrollmentProcess />
       <Courses />
       <FeeStructure />
       <WhyChooseUs />
+      <Founder />
       <Testimonials />
       <Contact />
       <Footer />

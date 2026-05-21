@@ -12,6 +12,7 @@ const courses = [
     name: "ADCA",
     fullName: "Advanced Diploma in Computer Applications",
     duration: "12 Months",
+    fee: "4,999",
     icon: Laptop,
     color: "bg-blue-500",
     popular: true,
@@ -21,6 +22,7 @@ const courses = [
     name: "DCA",
     fullName: "Diploma in Computer Applications",
     duration: "6 Months",
+    fee: "2,499",
     icon: FileCode,
     color: "bg-green-500",
     popular: false,
@@ -30,6 +32,7 @@ const courses = [
     name: "Python",
     fullName: "Python Programming Course",
     duration: "4 Months",
+    fee: "2,499",
     icon: Terminal,
     color: "bg-yellow-500",
     popular: true,
@@ -39,10 +42,11 @@ const courses = [
     name: "Fullstack",
     fullName: "Full Stack Web Development",
     duration: "3 Months",
+    fee: "1,999",
     icon: Layers,
     color: "bg-purple-500",
     popular: true,
-    skills: ["HTML/CSS/JS", "React", "Node.js", "Database"],
+    skills: ["HTML/CSS/JS", "React", "PHP", "Database"],
   },
   {
     name: "Web Dev",
@@ -57,6 +61,7 @@ const courses = [
     name: "Graphic Design",
     fullName: "Graphic Design Fundamentals",
     duration: "3 Months",
+    fee: "2,999",
     icon: Database,
     color: "bg-orange-500",
     popular: false,
@@ -66,6 +71,7 @@ const courses = [
     name: "Programming",
     fullName: "C & C++ Programming",
     duration: "3 Months",
+    fee: "2,499",
     icon: Code2,
     color: "bg-red-500",
     popular: false,
@@ -75,11 +81,32 @@ const courses = [
     name: "Data Analyst",
     fullName: "Data Analytics with Python",
     duration: "3 Months",
+    fee: "1,799",
     icon: Smartphone,
     color: "bg-pink-500",
     popular: false,
     skills: ["SQL", "Python", "Power BI", "Excel"],
   },
+  {
+  name: "AutoCAD",
+  fullName: "AutoCAD Design & Drafting",
+  duration: "2 Months",
+  fee: "1,499",
+  icon: Laptop,
+  color: "bg-slate-500",
+  popular: true,
+  skills: ["2D Design", "3D Modeling", "Engineering Drawing", "Projects"],
+},
+{
+  name: "DSA",
+  fullName: "Data Structures & Algorithms with Python",
+  duration: "2 Months",
+  fee: "1,999",
+  icon: Code2,
+  color: "bg-indigo-500",
+  popular: true,
+  skills: ["Python DSA", "Algorithms", "Problem Solving", "Interview Prep"],
+},
 ]
 
 const containerVariants = {
@@ -174,10 +201,10 @@ export function Courses() {
                       <Clock className="w-4 h-4" />
                       <span>{course.duration}</span>
                     </div>
-                    {/* <div className="flex items-center gap-0.5 font-semibold text-navy">
-                      <IndianRupee className="w-4 h-4" /> */}
-                      {/* <span>{course.fee}</span> */}
-                    {/* </div> */}
+                     <div className="flex items-center gap-0.5 font-semibold text-navy">
+                      <IndianRupee className="w-4 h-4" /> 
+                     <span>{course.fee}</span> 
+                    </div>
                   </div>
                 </CardContent>
                 <CardFooter>

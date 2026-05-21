@@ -61,6 +61,21 @@ const feeData = [
     monthly: "500",
     highlight: false,
   },
+
+{
+  course: "AutoCAD",
+  duration: "2 Months",
+  fee: "1,499",
+  monthly: "750",
+  highlight: true,
+},
+{
+  course: "DSA with Python",
+  duration: "2 Months",
+  fee: "1,999",
+  monthly: "1000",
+  highlight: true,
+},
 ]
 
 const benefits = [

@@ -23,7 +23,7 @@ const socialLinks = [
   { icon: Instagram, href: "https://www.instagram.com/dtechacademy_/", label: "Instagram" },
   { icon: Twitter, href: "https://x.com/Dhaneshwar222", label: "Twitter" },
   { icon: Youtube, href: "http://www.youtube.com/@idhaneshwarmahato", label: "YouTube" },
-  { icon: Linkedin, href: "https://www.linkedin.com/in/dhaneshwar-mahato-6785a7256/", label: "LinkedIn" },
+  { icon: Linkedin, href: "https://www.linkedin.com/company/dtechacademy/", label: "LinkedIn" },
 ]
 
 export function Footer() {
