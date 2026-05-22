@@ -52,6 +52,7 @@ const courses = [
     name: "Web Dev",
     fullName: "Web Development Fundamentals",
     duration: "2 Months",
+    fee: "1,199",
     icon: Globe,
     color: "bg-cyan-500",
     popular: false,
