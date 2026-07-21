@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Megha Kumari",
+        "course": "Full Stack Developement",
+        "certificateNo": "DTA-2026-0001",
+        "startDate": "01 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "20 July 2026",
+        "grade": "A",
+        "projectName": "School Management System"
+    },
+    
+    {
+        "name": "Princy Kumari",
+        "course": "Full Stack Developement",
+        "certificateNo": "DTA-2026-0002",
+        "startDate": "01 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "20 July 2026",
+        "grade": "A",
+        "projectName": "School Management System"
+    },
+
+    {
+        "name": "Akanksha Kumari",
+        "course": "Full Stack Developement",
+        "certificateNo": "DTA-2026-0003",
+        "startDate": "01 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "20 July 2026",
+        "grade": "A",
+        "projectName": "School Management System"
+    },
+
+    {
+        "name": "Jyoti Kumari",
+        "course": "Full Stack Developement",
+        "certificateNo": "DTA-2026-0004",
+        "startDate": "01 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "20 July 2026",
+        "grade": "A",
+        "projectName": "School Management System"
+    },
+
+    {
+        "name": "Tamshir Hussain",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0005",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "School Management System"
+    }
+]

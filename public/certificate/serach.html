@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTech Academy | Certificate Search</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f5f7fb;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .container{
+
+            width:450px;
+            background:#fff;
+            padding:40px;
+            border-radius:12px;
+            box-shadow:0 15px 40px rgba(0,0,0,.1);
+
+        }
+
+        h2{
+
+            text-align:center;
+            margin-bottom:10px;
+            color:#003366;
+
+        }
+
+        p{
+
+            text-align:center;
+            margin-bottom:25px;
+            color:#666;
+
+        }
+
+        input{
+
+            width:100%;
+            padding:14px;
+            margin-bottom:20px;
+            border:1px solid #ccc;
+            border-radius:6px;
+            font-size:16px;
+
+        }
+
+        button{
+
+            width:100%;
+            padding:15px;
+            border:none;
+            background:#0056d6;
+            color:#fff;
+            font-size:16px;
+            border-radius:6px;
+            cursor:pointer;
+
+        }
+
+        button:hover{
+
+            background:#003fa8;
+
+        }
+
+        #result{
+
+            margin-top:20px;
+            text-align:center;
+            color:red;
+            font-weight:bold;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Certificate Search</h2>
+
+    <p>Enter your Name or Certificate Number</p>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Rahul Kumar or DTA-2026-0001"
+    >
+
+    <button onclick="searchCertificate()">
+        Search Certificate
+    </button>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="search.js"></script>
+
+</body>
+</html>

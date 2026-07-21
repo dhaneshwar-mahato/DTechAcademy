@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTECHACADEMY Certificate</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="certificate-container">
+
+        <!-- Decorative Corners -->
+        <div class="corner top-left"></div>
+        <div class="corner top-right"></div>
+        <div class="corner bottom-left"></div>
+        <div class="corner bottom-right"></div>
+
+        <!-- Border Decoration -->
+        <div class="certificate-border"></div>
+
+        <!-- Watermark -->
+        <div class="watermark">
+            <div class="shield">
+                <span>D</span>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header class="certificate-header">
+
+            <!-- MSME Logo -->
+            <div class="msme-section">
+                <img src="msme-logo-2.png" alt="MSME Logo">
+
+                <!-- <div class="msme-text">
+                    <p>MICRO, SMALL & MEDIUM ENTERPRISES</p>
+                    <p>Ministry of MSME, Govt. of India</p>
+                </div> -->
+            </div>
+
+            <!-- Academy Logo -->
+            <div class="academy-section" style="margin-left: -85px;">
+
+                <img src="icon.png"
+                     alt="DTECHACADEMY Logo">
+
+                <h1>DTECHACADEMY</h1>
+
+                <p>LEARN • INNOVATE • ACHIEVE</p>
+
+            </div>
+
+            <!-- QR Code -->
+            <div id="qrcode"></div>
+
+        </header>
+
+        <!-- Certificate Title -->
+        <section class="certificate-title">
+
+            <h2>
+                CERTIFICATE OF COMPLETION
+            </h2>
+
+        </section>
+
+        <!-- Decorative Divider -->
+        <div class="title-divider">
+
+            <span></span>
+
+            <div class="ornament">
+                ✦
+            </div>
+
+            <span></span>
+
+        </div>
+
+        <!-- Main Content -->
+        <main class="certificate-content">
+
+            <p class="intro">
+                THIS IS TO CERTIFY THAT
+            </p>
+
+            <h3 class="student-name" id="studentName"></h3>
+
+            <p class="completion-text">
+                HAS SUCCESSFULLY COMPLETED THE
+            </p>
+
+            <h4 class="course-name" id="courseName"></h4>
+
+            <p class="description">
+                conducted by <strong>DTECHACADEMY</strong>, where the intern demonstrated
+                commendable dedication, technical competence, and professional commitment
+                throughout the training period by successfully completing the internship
+                project titled <strong id="projectName"></strong>. Based on the overall
+                performance, the intern has been awarded the grade
+                <strong id="grade"></strong>.
+            </p>
+
+        </main>
+
+        <!-- Information Section -->
+<section class="certificate-info">
+
+    <div class="info-card">
+        <div>
+            <p>CERTIFICATE NO.</p>
+            <h5 id="certificateNo"></h5>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div>
+            <p>TRAINING DURATION</p>
+            <h5 id="duration"></h5>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div>
+            <p>DATE OF ISSUE</p>
+            <h5 id="issueDate"></h5>
+        </div>
+    </div>
+
+    <!-- <div class="info-card">
+        <div>
+            <p>STUDENT ID</p>
+            <h5 id="studentId"></h5>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div>
+            <p>MODE OF TRAINING</p>
+            <h5 id="mode"></h5>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <div>
+            <p>TOTAL TRAINING HOURS</p>
+            <h5 id="hours"></h5>
+        </div>
+    </div> -->
+
+</section>
+
+        <!-- Signature Section -->
+        <!-- Signature Section -->
+        <section class="signature-section">
+
+            <div class="signature-box">
+                <img src="Dmahato.png" alt="Instructor Signature" class="signature-img">
+                <div class="signature-line"></div>
+                <h5>COURSE INSTRUCTOR</h5>
+                <p>INSTRUCTOR FULL STACK, DTECHACADEMY</p>
+            </div>
+
+            <div class="signature-box">
+                <img src="Dmahato.png" alt="Authorized Signature" class="signature-img">
+                <div class="signature-line"></div>
+                <h5>AUTHORIZED SIGNATORY</h5>
+                <p>FOUNDER & PROPRIETOR, DTECHACADEMY</p>
+            </div>
+
+        </section>
+
+        <!-- MSME Registration -->
+        <section class="msme-registration">
+
+            <h4>
+                MSME REGISTERED ORGANIZATION
+            </h4>
+
+            <div class="registration-number">
+
+                MSME REGISTRATION NUMBER:
+                UDYAM-JH-22-0028740
+
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <footer class="certificate-footer">
+
+            <div style="margin-left: 70px;">
+                🌐 www.dtechacademy.in
+            </div>
+
+            <div style="margin-right: 80px;">
+
+                ✉ info@dtechacademy.in
+
+            </div>
+
+        </footer>
+
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
