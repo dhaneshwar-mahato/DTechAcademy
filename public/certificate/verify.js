@@ -48,11 +48,11 @@ async function verifyCertificate() {
 
     if (student) {
 
-        status.innerHTML =
+        // status.innerHTML =
 
-            `<div class="success">
-                ✅ Certificate Verified Successfully
-            </div>`;
+        //     `<div class="success">
+        //         ✅ Certificate Verified Successfully
+        //     </div>`;
 
         card.style.display = "block";
 
