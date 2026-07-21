@@ -1,0 +1,858 @@
+/* ===========================
+   RESET & BODY
+=========================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* ===========================
+   CERTIFICATE CONTAINER
+=========================== */
+.certificate-container{
+
+    position: relative;
+
+    width: 297mm;
+    height: 210mm;
+
+    background:#fdfcf8;
+
+    overflow:hidden;
+
+    border:12px solid #d4af37;
+
+    padding:12mm 16mm;
+
+    box-sizing:border-box;
+}
+
+/* ===========================
+   INNER BORDER
+=========================== */
+.certificate-border{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    border: 2px solid #d4af37;
+    pointer-events: none;
+}
+
+/* ===========================
+   DECORATIVE CORNERS
+=========================== */
+.corner{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(
+        135deg,
+        #0a2558,
+        #163a7a
+    );
+    z-index: 1;
+}
+
+.top-left{
+    top: -80px;
+    left: -80px;
+    transform: rotate(45deg);
+}
+
+.top-right{
+    top: -80px;
+    right: -80px;
+    transform: rotate(-45deg);
+}
+
+.bottom-left{
+    bottom: -80px;
+    left: -80px;
+    transform: rotate(-45deg);
+}
+
+.bottom-right{
+    bottom: -80px;
+    right: -80px;
+    transform: rotate(45deg);
+}
+
+/* ===========================
+   WATERMARK
+=========================== */
+.watermark{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.05;
+    z-index: 0;
+}
+
+.shield{
+    width: 350px;
+    height: 400px;
+    border: 8px solid #0a2558;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shield span{
+    font-size: 160px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    color: #0a2558;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+.certificate-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.msme-section,
+.qr-section{
+    text-align: center;
+    width: 180px;
+}
+
+#qrcode {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qrcode img {
+    width: 100%;
+    height: 100%;
+    margin-left: -100px;
+}
+
+.msme-section img,
+.qr-section img{
+    width: 170px;
+}
+
+.msme-text{
+    font-size: 10px;
+    color: #333;
+    margin-top: 8px;
+}
+
+.academy-section{
+    text-align: center;
+}
+
+.academy-section img{
+    width: 60px;
+    margin-bottom: 6px;
+}
+
+.academy-section h1{
+    font-size: 30px;
+    color: #0a2558;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.academy-section p{
+    color: #b28a1e;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+/* ===========================
+   CERTIFICATE TITLE
+=========================== */
+.certificate-title{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.certificate-title h2{
+    /* font-family: 'Cinzel', serif; */
+    font-size: 40px;
+    font-weight: 700;
+    color: #d4af37;
+    line-height: 1.1;
+
+    /* text-shadow:
+        1px 1px 0 #fff,
+        2px 2px 0 #a57d15,
+        3px 3px 6px rgba(0,0,0,0.25); */
+
+    letter-spacing: 3px;
+}
+
+/* ===========================
+   DIVIDER
+=========================== */
+.title-divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 0;
+}
+
+.title-divider span{
+    width: 180px;
+    height: 2px;
+    background: #d4af37;
+}
+
+.ornament{
+    color: #d4af37;
+    font-size: 24px;
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+.certificate-content{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.intro{
+    /* font-family: 'Cinzel', serif; */
+    font-size: 15px;
+    color: #1b2f5b;
+    letter-spacing: 3px;
+}
+
+.student-name{
+    /* font-family: 'Cinzel', serif; */
+    font-size: 40px;
+    color: #0a2558;
+    margin: 3px 0;
+    letter-spacing: 3px;
+}
+
+.completion-text{
+    /* font-family: 'Cinzel', serif; */
+    font-size: 15px;
+    color: #1b2f5b;
+}
+
+.course-name{
+    margin: 5px 0;
+    /* font-family: 'Cinzel', serif; */
+    font-size: 30px;
+    color: #b28a1e;
+}
+
+.description{
+    width: 100%;
+    margin: auto;
+    line-height: 1.5;
+    color: #444;
+    font-size: 15px;
+}
+
+/* ===========================
+   INFO SECTION
+=========================== */
+.certificate-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.info-card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top: 2px solid #d4af37;
+    padding-top: 8px;
+    padding: 10px !important;
+}
+
+.icon{
+    font-size: 32px;
+}
+
+.info-card p{
+    font-size: 13px;
+    color: #555;
+}
+
+.info-card h5{
+    color: #0a2558;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* ===========================
+   SIGNATURE SECTION
+=========================== */
+/* .signature-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.signature-box{
+    text-align: center;
+    width: 250px;
+}
+
+.signature-line{
+    border-top: 2px solid #b28a1e;
+    margin-bottom: 10px;
+}
+
+.signature-box h5{
+    color: #0a2558;
+    font-size: 16px;
+}
+
+.signature-box p{
+    color: #666;
+    font-size: 14px;
+} */
+
+/* ===========================
+   OFFICIAL SEAL
+=========================== */
+.seal-circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background:
+        linear-gradient(
+            135deg,
+            #0a2558,
+            #d4af37
+        );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.25);
+}
+
+/* ===========================
+   MSME REGISTRATION
+=========================== */
+.msme-registration{
+    text-align: center;
+    margin-top: -95px;
+}
+
+.msme-registration h4{
+    color: #0a2558;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.registration-number{
+    display: inline-block;
+    background: #0a2558;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 40px;
+    border: 2px solid #d4af37;
+    font-weight: 500;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+.certificate-footer{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    font-size: 14px;
+}
+
+/* ===========================
+    SETTINGS
+=========================== */
+@page{
+    size: A4 landscape;
+    margin: 0;
+}
+
+@media print {
+
+    html,
+    body {
+        width: 297mm;
+        height: 210mm;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        overflow: hidden;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .certificate-container {
+
+        width: 297mm;
+        height: 210mm;
+
+        min-height: unset;
+
+        margin: 0;
+        padding: 12mm 16mm;
+
+        box-sizing: border-box;
+
+        box-shadow: none;
+
+        page-break-after: avoid;
+        page-break-inside: avoid;
+
+        overflow: hidden;
+    }
+
+}
+
+
+/* ==========================================
+   PART 3 – PREMIUM ORNAMENTAL EFFECTS
+   Add this BELOW Part 2 CSS
+========================================== */
+
+/* ==========================================
+   LUXURY CERTIFICATE BACKGROUND
+========================================== */
+.certificate-container{
+    background:
+        radial-gradient(circle at top left,
+            rgba(212,175,55,0.08),
+            transparent 25%),
+
+        radial-gradient(circle at bottom right,
+            rgba(10,37,88,0.06),
+            transparent 25%),
+
+        linear-gradient(
+            135deg,
+            #fffefc,
+            #fdfaf2
+        );
+
+    position: relative;
+}
+
+/* ==========================================
+   GOLD ORNAMENTAL CORNER FRAMES
+========================================== */
+
+.corner::before,
+.corner::after{
+    content: "";
+    position: absolute;
+    border: 4px solid #d4af37;
+}
+
+/* Top Left */
+.top-left::before{
+    width: 90px;
+    height: 90px;
+    top: 95px;
+    left: 95px;
+
+    border-right: none;
+    border-bottom: none;
+}
+
+.top-left::after{
+    width: 55px;
+    height: 55px;
+    top: 120px;
+    left: 120px;
+
+    border-right: none;
+    border-bottom: none;
+}
+
+/* Top Right */
+.top-right::before{
+    width: 90px;
+    height: 90px;
+    top: 95px;
+    right: 95px;
+
+    border-left: none;
+    border-bottom: none;
+}
+
+.top-right::after{
+    width: 55px;
+    height: 55px;
+    top: 120px;
+    right: 120px;
+
+    border-left: none;
+    border-bottom: none;
+}
+
+/* Bottom Left */
+.bottom-left::before{
+    width: 90px;
+    height: 90px;
+    bottom: 95px;
+    left: 95px;
+
+    border-top: none;
+    border-right: none;
+}
+
+.bottom-left::after{
+    width: 55px;
+    height: 55px;
+    bottom: 120px;
+    left: 120px;
+
+    border-top: none;
+    border-right: none;
+}
+
+/* Bottom Right */
+.bottom-right::before{
+    width: 90px;
+    height: 90px;
+    bottom: 95px;
+    right: 95px;
+
+    border-top: none;
+    border-left: none;
+}
+
+.bottom-right::after{
+    width: 55px;
+    height: 55px;
+    bottom: 120px;
+    right: 120px;
+
+    border-top: none;
+    border-left: none;
+}
+
+/* ==========================================
+   GOLD DOT ACCENTS
+========================================== */
+
+.corner{
+    overflow: hidden;
+}
+
+.corner span{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+
+    background: #d4af37;
+
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 10px rgba(212,175,55,0.6);
+}
+
+/* ==========================================
+   EMBOSSED TITLE UPGRADE
+========================================== */
+
+/* .certificate-title h2{ */
+
+    /* background:
+        linear-gradient(
+            180deg,
+            #fcefa5,
+            #d4af37,
+            #8c6a0a
+        ); */
+    /* text-shadow:
+        1px 1px 0 rgba(255,255,255,0.8),
+
+        2px 2px 0 rgba(181,140,23,0.6),
+
+        3px 3px 10px rgba(0,0,0,0.15); */
+/* } */
+
+/* ==========================================
+   CIRCUIT BOARD PATTERN
+========================================== */
+
+.certificate-container::before{
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    opacity: 0.04;
+
+    background-image:
+
+        linear-gradient(
+            90deg,
+            #0a2558 2px,
+            transparent 2px
+        ),
+
+        linear-gradient(
+            #0a2558 2px,
+            transparent 2px
+        );
+
+    background-size:
+        120px 120px;
+
+    pointer-events: none;
+}
+
+/* ==========================================
+   WATERMARK IMPROVEMENT
+========================================== */
+
+.shield{
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(212,175,55,0.08),
+            rgba(10,37,88,0.08)
+        );
+
+    border-style: double;
+
+    border-width: 12px;
+
+    border-color:
+        rgba(10,37,88,0.2);
+
+    clip-path:
+        polygon(
+            50% 0%,
+            100% 15%,
+            100% 60%,
+            50% 100%,
+            0% 60%,
+            0% 15%
+        );
+}
+
+.shield span{
+
+    color:
+        rgba(10,37,88,0.12);
+
+    text-shadow:
+        0 0 15px
+        rgba(212,175,55,0.25);
+}
+
+/* ==========================================
+   OFFICIAL SEAL UPGRADE
+========================================== */
+
+.seal-circle{
+
+    position: relative;
+
+    border:
+        5px solid #ffffff;
+}
+
+.seal-circle::before{
+
+    content: "";
+
+    position: absolute;
+
+    inset: 8px;
+
+    border:
+        2px dashed rgba(255,255,255,0.6);
+
+    border-radius: 50%;
+}
+
+.seal-circle::after{
+
+    content:
+        "DTECHACADEMY";
+
+    position: absolute;
+
+    inset: 18px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    color: rgba(255,255,255,0.25);
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    font-weight: 600;
+}
+
+/* ==========================================
+   INFO CARD HOVER EFFECT
+========================================== */
+
+.info-card{
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    border-radius: 12px;
+
+    padding: 18px;
+}
+
+.info-card:hover{
+
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 10px 20px
+        rgba(0,0,0,0.08);
+}
+
+/* ==========================================
+   FOOTER GOLD LINE
+========================================== */
+
+.certificate-footer{
+
+    border-top:
+        2px solid rgba(212,175,55,0.4);
+
+    padding-top: 4px;
+}
+
+/* ==========================================
+   PREMIUM RIBBON EFFECT
+========================================== */
+
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right{
+
+    box-shadow:
+
+        inset 0 0 25px
+        rgba(255,255,255,0.15),
+
+        0 10px 20px
+        rgba(0,0,0,0.12);
+}
+
+/* ==========================================
+   SUBTLE GOLD SHIMMER ANIMATION
+========================================== */
+
+@keyframes shimmer{
+
+    0%{
+
+        opacity: 0.8;
+    }
+
+    50%{
+
+        opacity: 1;
+    }
+
+    100%{
+
+        opacity: 0.8;
+    }
+}
+
+.registration-number{
+
+    animation:
+        shimmer 4s infinite ease-in-out;
+}
+
+
+.signature-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.signature-box {
+    text-align: center;
+    width: 250px;
+}
+
+.signature-img {
+    width: 140px;      /* Adjust as needed */
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: -10px; /* Makes the signature overlap the line slightly */
+}
+
+.signature-line {
+    border-top: 1.5px solid #000;
+    margin-bottom: 10px;
+}
+
+.signature-box h5 {
+    margin: 5px 0;
+}
+
+.signature-box p {
+    margin: 0;
+    font-size: 13px;
+}
