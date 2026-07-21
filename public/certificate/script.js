@@ -92,7 +92,7 @@ function generateQRCode(student) {
     //                 `.trim();
     
     const qrText =
-    `https://dtechacademy.in/verify.html?cert=${student.certificateNo}`;
+    `https://dtechacademy.in/certificate/verify.html?cert=${student.certificateNo}`;
 
     console.log("Generating QR for:", qrText);
 
