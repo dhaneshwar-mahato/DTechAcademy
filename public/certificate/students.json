@@ -52,5 +52,315 @@
         "issueDate": "18 July 2026",
         "grade": "A",
         "projectName": "School Management System"
+    },
+
+    {
+        "name": "Suraj Kumar Vishwakarma",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0006",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Jeet Mandal",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0007",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Raja Hansda",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0008",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Priya Kumari",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0009",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Anuja Bharti",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0010",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Megha Kumari",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0011",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Bhumi Gupta",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0012",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Jyotshana Machhua",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0013",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Priya Kumari",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0014",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Pritish Kumar",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0015",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Suman Dhibar",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0016",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Karan Gorai",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0017",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Gangadhar Kumbhakar",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0018",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Muskan Kumari",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0019",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Sourav Ganguli",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0020",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Shravan Singh",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0021",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Raju Patra",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0022",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Amit Raj Gope",
+        "course": "Full Stack Development",
+        "certificateNo": "DTA-2026-0023",
+        "startDate": "26 May 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": "College ERP"
+    },
+
+    {
+        "name": "Nirupama Mahato",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0024",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Kamlesh Mahato",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0025",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Ishika Hembram",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0026",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Pammi Kumari Bedia",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0027",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Nirmal Kumar",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0028",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Hare Krishna Bhakat",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0029",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Kunal Kumar",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0030",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Bhutnath Mahato",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0031",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Nipen Mahato",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0032",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Biru Mahato",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0033",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
     }
+
+
 ]
