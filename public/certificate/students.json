@@ -303,7 +303,7 @@
         "startDate": "27 May 2026",
         "endDate": "26 June 2026",
         "issueDate": "18 July 2026",
-        "grade": "A+",
+        "grade": "A",
         "projectName": ""
     },
 
@@ -325,7 +325,7 @@
         "startDate": "27 May 2026",
         "endDate": "26 June 2026",
         "issueDate": "18 July 2026",
-        "grade": "A",
+        "grade": "A+",
         "projectName": ""
     },
 
@@ -357,6 +357,226 @@
         "certificateNo": "DTA-2026-0033",
         "startDate": "27 May 2026",
         "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Bittu Kumar",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0034",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Pramod Kumar Mahato",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0035",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Piyush Kumar Yadav",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0036",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Jagarnath Jogi",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0037",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Nirmal Kumar Mahato",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0038",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Amulya Mahato",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0039",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Suman Chand",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0040",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Md. Shahnawaz Ansari",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0041",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Niral David Purty",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0042",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Gourav Kumar",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0043",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Samir Nayak",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0044",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Ajay Kumar Sharma",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0045",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Abhinash Nayak",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0046",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Bhakti Nayak",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0047",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Himanshu Pandey",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0048",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Naman Verma",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0049",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Bibek Mahakud",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0050",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Anjali Kumari",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0051",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Akash Kumar Mahto",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0052",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Priyanshu Kumar",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0052",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
         "issueDate": "18 July 2026",
         "grade": "A",
         "projectName": ""
