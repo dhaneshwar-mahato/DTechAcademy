@@ -311,9 +311,9 @@
         "name": "Hare Krishna Bhakat",
         "course": "AUTOCAD Electrical",
         "certificateNo": "DTA-2026-0029",
-        "startDate": "27 May 2026",
-        "endDate": "26 June 2026",
-        "issueDate": "18 July 2026",
+        "startDate": "10 June 2026",
+        "endDate": "26 July 2026",
+        "issueDate": "28 July 2026",
         "grade": "A+",
         "projectName": ""
     },
@@ -323,8 +323,8 @@
         "course": "AUTOCAD Electrical",
         "certificateNo": "DTA-2026-0030",
         "startDate": "27 May 2026",
-        "endDate": "26 June 2026",
-        "issueDate": "18 July 2026",
+        "endDate": "26 July 2026",
+        "issueDate": "28 July 2026",
         "grade": "A+",
         "projectName": ""
     },
@@ -645,18 +645,18 @@
         "endDate": "26 June 2026",
         "issueDate": "18 July 2026",
         "grade": "A",
-        "projectName": "Amazon Sales Dashboard"
+        "projectName": "Meesho Sales Dashboard"
     },
 
     {
-        "name": "Sangeeta Kumari Mahato",
+        "name": "Sangita Kumari Mahato",
         "course": "Data Analytics",
         "certificateNo": "DTA-2026-0060",
         "startDate": "27 May 2026",
         "endDate": "26 June 2026",
         "issueDate": "18 July 2026",
         "grade": "A+",
-        "projectName": "Flipkar Dashboard"
+        "projectName": "Flipkart Dashboard"
     },
 
     {
@@ -679,6 +679,17 @@
         "issueDate": "18 July 2026",
         "grade": "A+",
         "projectName": "Sunil Chhetri Career Dashboard"
+    },
+
+    {
+        "name": "Avinash Kumar",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0068",
+        "startDate": "13 June 2026",
+        "endDate": "29 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
     }
 
 
