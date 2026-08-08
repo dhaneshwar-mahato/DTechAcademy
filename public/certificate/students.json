@@ -682,11 +682,143 @@
     },
 
     {
+        "name": "Anmol Kumar",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0063",
+        "startDate": "10 June 2026",
+        "endDate": "24 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Prakash Kumar",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0064",
+        "startDate": "10 June 2026",
+        "endDate": "24 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Aman Kumar Das",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0065",
+        "startDate": "10 June 2026",
+        "endDate": "24 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Jagat Laguri",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0066",
+        "startDate": "10 June 2026",
+        "endDate": "24 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Vijay Pingua",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0067",
+        "startDate": "10 June 2026",
+        "endDate": "24 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
         "name": "Avinash Kumar",
         "course": "AUTOCAD Civil",
         "certificateNo": "DTA-2026-0068",
         "startDate": "13 June 2026",
         "endDate": "29 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Amardeep Bharti",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0069",
+        "startDate": "10 June 2026",
+        "endDate": "24 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Sakshi Bharti",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0070",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Sandeep Kumar Munda",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0071",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Snehashish Mahato",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0072",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Tapas Kumar Munda",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0073",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Manorama Tirkey",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0075",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Aditya Kumar",
+        "course": "AUTOCAD Civil",
+        "certificateNo": "DTA-2026-0075",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
         "issueDate": "01 August 2026",
         "grade": "A",
         "projectName": ""
@@ -722,6 +854,160 @@
         "endDate": "26 June 2026",
         "issueDate": "01 August 2026",
         "grade": "B+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Kapil Kumar Ray",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0079",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Praveen Kumar",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0080",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Deepak Gope",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0081",
+        "startDate": "16 June 2026",
+        "endDate": "20 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Rohit Kumar Mahato",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0082",
+        "startDate": "16 June 2026",
+        "endDate": "20 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Rohit Kumar Mahato",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0083",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Dayashankar Mahato",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0084",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Mukesh Kumar Mahato",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0085",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Vivek Mahato",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0086",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Shivam Kumar",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0087",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Prem Kumar Trivedy",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0088",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Shyam Purty",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0089",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Abhishek Kumar",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0090",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Sunaina Kumri",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0091",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Raushan Kumar",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0092",
+        "startDate": "16 June 2026",
+        "endDate": "20 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
         "projectName": ""
     }
 
