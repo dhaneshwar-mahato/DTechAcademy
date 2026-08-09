@@ -1009,6 +1009,94 @@
         "issueDate": "01 August 2026",
         "grade": "A",
         "projectName": ""
+    },
+
+    {
+        "name": "Mukesh Kumar",
+        "course": "Web Development",
+        "certificateNo": "DTA-2026-0093",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": "School Management & Information Portal"
+    },
+
+    {
+        "name": "Ramkrishna Sardar",
+        "course": "Web Development",
+        "certificateNo": "DTA-2026-0094",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": ""
+    },
+
+    {
+        "name": "Shubham Kumar Verma",
+        "course": "Web Development",
+        "certificateNo": "DTA-2026-0095",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": "Maharaja Sweets Online Order Website"
+    },
+
+    {
+        "name": "Aman Gorai",
+        "course": "Web Development",
+        "certificateNo": "DTA-2026-0096",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": "E-Commerce"
+    },
+
+    {
+        "name": "Piyush Kumar Bauri",
+        "course": "Web Development",
+        "certificateNo": "DTA-2026-0097",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Nitish Kumar Singh",
+        "course": "Web Development",
+        "certificateNo": "DTA-2026-0098",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A+",
+        "projectName": "Online Learning Platform"
+    },
+
+    {
+        "name": "Manoj Singh Munda",
+        "course": "Web Development",
+        "certificateNo": "DTA-2026-0099",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": "Hotel Booking Website"
+    },
+
+    {
+        "name": "Rajdeep Hembram",
+        "course": "Web Development",
+        "certificateNo": "DTA-2026-0100",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
     }
 
 ]
