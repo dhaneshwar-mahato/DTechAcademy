@@ -1097,6 +1097,17 @@
         "issueDate": "01 August 2026",
         "grade": "A",
         "projectName": ""
+    },
+
+        {
+        "name": "P Suman Rao",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0101",
+        "startDate": "16 June 2026",
+        "endDate": "20 July 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
     }
 
 ]
