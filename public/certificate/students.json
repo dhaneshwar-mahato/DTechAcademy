@@ -1141,6 +1141,17 @@
         "issueDate": "18 July 2026",
         "grade": "A",
         "projectName": ""
+    },
+
+    {
+        "name": "Mohit Mahato",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0105",
+        "startDate": "02 June 2026",
+        "endDate": "17 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
     }
 
 ]
