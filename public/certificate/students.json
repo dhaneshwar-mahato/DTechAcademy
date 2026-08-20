@@ -1174,6 +1174,28 @@
         "issueDate": "01 August 2026",
         "grade": "A",
         "projectName": ""
+    },
+
+    {
+        "name": "Alok Kumar",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0108",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Manish Oraon",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0109",
+        "startDate": "16 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "18 July 2026",
+        "grade": "A",
+        "projectName": ""
     }
 
 ]
