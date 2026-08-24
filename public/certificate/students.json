@@ -1207,6 +1207,17 @@
         "issueDate": "01 August 2026",
         "grade": "A",
         "projectName": ""
+    },
+
+    {
+        "name": "Ricky Pingua",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0111",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
     }
 
 ]
