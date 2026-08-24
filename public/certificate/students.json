@@ -1196,6 +1196,17 @@
         "issueDate": "18 July 2026",
         "grade": "A",
         "projectName": ""
+    },
+
+    {
+        "name": "Shambhu Mahapatra",
+        "course": "AUTOCAD Electrical",
+        "certificateNo": "DTA-2026-0110",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
     }
 
 ]
