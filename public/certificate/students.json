@@ -1218,6 +1218,28 @@
         "issueDate": "01 August 2026",
         "grade": "A",
         "projectName": ""
+    },
+
+    {
+        "name": "Suraj Mandal",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0112",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
+    },
+
+    {
+        "name": "Sanjay Gorai",
+        "course": "AUTOCAD Mechanical",
+        "certificateNo": "DTA-2026-0113",
+        "startDate": "27 May 2026",
+        "endDate": "26 June 2026",
+        "issueDate": "01 August 2026",
+        "grade": "A",
+        "projectName": ""
     }
 
 ]
