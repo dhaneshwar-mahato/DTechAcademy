@@ -1240,6 +1240,28 @@
         "issueDate": "01 August 2026",
         "grade": "A",
         "projectName": ""
+    },
+
+    {
+        "name": "Ravi Kumar Yadav",
+        "course": "Full Stack Developement",
+        "certificateNo": "DTA-2026-0114",
+        "startDate": "01 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "20 July 2026",
+        "grade": "A+",
+        "projectName": "Library Management System"
+    },
+
+    {
+        "name": "Dhaneshwar Mahato",
+        "course": "Full Stack Developement",
+        "certificateNo": "DTA-2026-0115",
+        "startDate": "01 June 2026",
+        "endDate": "15 July 2026",
+        "issueDate": "20 July 2026",
+        "grade": "A+",
+        "projectName": "University Management System"
     }
 
 ]
